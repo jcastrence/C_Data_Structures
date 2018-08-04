@@ -1,1 +1,3 @@
-# C_Data_Structures
+# Data Structures in C
+
+Implementation of common data structures in the C language
