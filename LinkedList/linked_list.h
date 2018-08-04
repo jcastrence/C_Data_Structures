@@ -47,7 +47,7 @@ int add(LinkedList * list, void * new_data) {
 }
 
 int remove() {
-
+   return 1;
 }
 
 

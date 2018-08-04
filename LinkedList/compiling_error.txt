@@ -1,9 +1,0 @@
-clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated]
-/Users/iancastrence/Git/C_Data_Structures/linked_list.h:41:17: error: use of undeclared identifier 'currk'; did you mean 'curr'?
-         curr = currk->next;
-                ^~~~~
-                curr
-/Users/iancastrence/Git/C_Data_Structures/linked_list.h:26:11: note: 'curr' declared here
-   Node * curr, * new_node;
-          ^
-1 error generated.
