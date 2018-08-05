@@ -2,11 +2,11 @@
 
 PROGS = ex1
 
-.PHONY: clean
+.PHONY: all clean
 
 all: $(PROGS)
 
-linked_list_ex1: linked_list_ex1.o
+ex1: linked_list_ex1.o
 	gcc -o ex1 linked_list_ex1.o
 
 linked_list_ex1.o: linked_list_ex1.c linked_list.h
